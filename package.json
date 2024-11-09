@@ -9,7 +9,7 @@
     "db:populate": "tsx dev/createDatabase.ts",
     "dev:server": "ts-node-dev backend/server.ts",
     "build:server": "tsc -p tsconfig.json",
-    "server:start": "node backend/dist/index.js"
+    "server:start": "node backend/dist/server.js"
   },
   "eslintConfig": {
     "extends": [
