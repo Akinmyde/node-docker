@@ -8,7 +8,7 @@
   "scripts": {
     "db:populate": "tsx dev/createDatabase.ts",
     "dev:server": "ts-node-dev backend/server.ts",
-    "build:server": "tsc -p tsconfig.backend.json",
+    "build:server": "tsc -p tsconfig.json",
     "server:start": "node backend/dist/index.js"
   },
   "eslintConfig": {
